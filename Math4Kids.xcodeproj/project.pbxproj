@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C005C9D1566D29400810ED6 /* Math4KidsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C005C981566D29400810ED6 /* Math4KidsController.m */; };
+		0C005C9E1566D29400810ED6 /* MathOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C005C9A1566D29400810ED6 /* MathOperation.m */; };
+		0C005C9F1566D29400810ED6 /* Stats.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C005C9C1566D29400810ED6 /* Stats.m */; };
+		0C005CD11566D69D00810ED6 /* neutral.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C005CCD1566D69D00810ED6 /* neutral.png */; };
+		0C005CD21566D69D00810ED6 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C005CCE1566D69D00810ED6 /* right.png */; };
+		0C005CD31566D69D00810ED6 /* wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C005CCF1566D69D00810ED6 /* wrong.png */; };
+		0C005CD41566D69D00810ED6 /* terrible.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C005CD01566D69D00810ED6 /* terrible.png */; };
+		0C005CD81566DD1200810ED6 /* math4kids.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0C005CD71566DD1200810ED6 /* math4kids.icns */; };
+		0C6B12BC1559B8D200713C74 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6B12BB1559B8D200713C74 /* PreferencesController.m */; };
+		0C6B12DA1559BB1300713C74 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C6B12D91559BB1300713C74 /* Preferences.xib */; };
+		0C814E0C1566D0AA00DD15DD /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C814E061566D0AA00DD15DD /* check.png */; };
+		0C814E0E1566D0AA00DD15DD /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C814E081566D0AA00DD15DD /* reload.png */; };
+		0CA497451564D86A00948FA2 /* PersistenceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA497441564D86A00948FA2 /* PersistenceHelper.m */; };
+		0CB1FBA4156035A6007EE555 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1FBA3156035A6007EE555 /* README */; };
+		0CB1FBAF1561A1DD007EE555 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1FBAE1561A1DD007EE555 /* Config.m */; };
+		0CB1FBDE1562E3C2007EE555 /* ConfigArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1FBDD1562E3C2007EE555 /* ConfigArrayController.m */; };
+		2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446970DB6B7EA00F9684A /* MainMenu.xib */; };
+		770B37ED0679A11B001EADE2 /* Math4Kids_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* Math4Kids_DataModel.xcdatamodel */; };
+		77C8280E06725ACE000B614F /* Math4KidsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* Math4KidsAppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0C005C971566D29400810ED6 /* Math4KidsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Math4KidsController.h; sourceTree = "<group>"; };
+		0C005C981566D29400810ED6 /* Math4KidsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Math4KidsController.m; sourceTree = "<group>"; };
+		0C005C991566D29400810ED6 /* MathOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathOperation.h; sourceTree = "<group>"; };
+		0C005C9A1566D29400810ED6 /* MathOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathOperation.m; sourceTree = "<group>"; };
+		0C005C9B1566D29400810ED6 /* Stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stats.h; sourceTree = "<group>"; };
+		0C005C9C1566D29400810ED6 /* Stats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stats.m; sourceTree = "<group>"; };
+		0C005CCD1566D69D00810ED6 /* neutral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neutral.png; sourceTree = "<group>"; };
+		0C005CCE1566D69D00810ED6 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		0C005CCF1566D69D00810ED6 /* wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrong.png; sourceTree = "<group>"; };
+		0C005CD01566D69D00810ED6 /* terrible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = terrible.png; sourceTree = "<group>"; };
+		0C005CD71566DD1200810ED6 /* math4kids.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = math4kids.icns; sourceTree = "<group>"; };
+		0C02E1AF156780CF001784F9 /* Math4KidsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Math4KidsConfig.h; sourceTree = "<group>"; };
+		0C6B12BA1559B8D200713C74 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		0C6B12BB1559B8D200713C74 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		0C6B12D91559BB1300713C74 /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		0C6B12FB155DB09A00713C74 /* Defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defs.h; sourceTree = "<group>"; };
+		0C814E061566D0AA00DD15DD /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		0C814E081566D0AA00DD15DD /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
+		0CA497431564D86A00948FA2 /* PersistenceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistenceHelper.h; sourceTree = "<group>"; };
+		0CA497441564D86A00948FA2 /* PersistenceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistenceHelper.m; sourceTree = "<group>"; };
+		0CB1FBA3156035A6007EE555 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		0CB1FBAD1561A1DD007EE555 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		0CB1FBAE1561A1DD007EE555 /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
+		0CB1FBDC1562E3C2007EE555 /* ConfigArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigArrayController.h; sourceTree = "<group>"; };
+		0CB1FBDD1562E3C2007EE555 /* ConfigArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigArrayController.m; sourceTree = "<group>"; };
+		0CC60E501570399200ECF2CE /* Math4Kids.xcclassmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcclassmodel; path = Math4Kids.xcclassmodel; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2F7446980DB6B7EA00F9684A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Math4Kids_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Math4Kids_Prefix.pch; sourceTree = "<group>"; };
+		770B37EC0679A11B001EADE2 /* Math4Kids_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Math4Kids_DataModel.xcdatamodel; sourceTree = "<group>"; };
+		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		77C8280B06725ACE000B614F /* Math4KidsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Math4KidsAppDelegate.h; sourceTree = "<group>"; };
+		77C8280C06725ACE000B614F /* Math4KidsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Math4KidsAppDelegate.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Math4Kids-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "Math4Kids-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Math4Kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Math4Kids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0C005C971566D29400810ED6 /* Math4KidsController.h */,
+				0C005C981566D29400810ED6 /* Math4KidsController.m */,
+				0C005C991566D29400810ED6 /* MathOperation.h */,
+				0C005C9A1566D29400810ED6 /* MathOperation.m */,
+				0C005C9B1566D29400810ED6 /* Stats.h */,
+				0C005C9C1566D29400810ED6 /* Stats.m */,
+				0CB1FBAD1561A1DD007EE555 /* Config.h */,
+				0CB1FBAE1561A1DD007EE555 /* Config.m */,
+				0C6B12FB155DB09A00713C74 /* Defs.h */,
+				77C8280B06725ACE000B614F /* Math4KidsAppDelegate.h */,
+				77C8280C06725ACE000B614F /* Math4KidsAppDelegate.m */,
+				0C6B12BA1559B8D200713C74 /* PreferencesController.h */,
+				0C6B12BB1559B8D200713C74 /* PreferencesController.m */,
+				0CB1FBDC1562E3C2007EE555 /* ConfigArrayController.h */,
+				0CB1FBDD1562E3C2007EE555 /* ConfigArrayController.m */,
+				0CA497431564D86A00948FA2 /* PersistenceHelper.h */,
+				0CA497441564D86A00948FA2 /* PersistenceHelper.m */,
+				0C02E1AF156780CF001784F9 /* Math4KidsConfig.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77C82804067257F0000B614F /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Math4Kids.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Math4Kids */ = {
+			isa = PBXGroup;
+			children = (
+				7756732906782D8800D1FEB8 /* Models */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				0CB1FBA3156035A6007EE555 /* README */,
+			);
+			name = Math4Kids;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Math4Kids_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C005CCD1566D69D00810ED6 /* neutral.png */,
+				0C005CCE1566D69D00810ED6 /* right.png */,
+				0C005CCF1566D69D00810ED6 /* wrong.png */,
+				0C005CD01566D69D00810ED6 /* terrible.png */,
+				0C814E061566D0AA00DD15DD /* check.png */,
+				0C005CD71566DD1200810ED6 /* math4kids.icns */,
+				0C814E081566D0AA00DD15DD /* reload.png */,
+				8D1107310486CEB800E47090 /* Math4Kids-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				2F7446970DB6B7EA00F9684A /* MainMenu.xib */,
+				0C6B12D91559BB1300713C74 /* Preferences.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7756732906782D8800D1FEB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				770B37EC0679A11B001EADE2 /* Math4Kids_DataModel.xcdatamodel */,
+				0CC60E501570399200ECF2CE /* Math4Kids.xcclassmodel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Math4Kids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "Math4Kids" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Math4Kids;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Math4Kids;
+			productReference = 8D1107320486CEB800E47090 /* Math4Kids.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+			};
+			buildConfigurationList = 26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "Math4Kids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Math4Kids */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Math4Kids */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */,
+				0C6B12DA1559BB1300713C74 /* Preferences.xib in Resources */,
+				0CB1FBA4156035A6007EE555 /* README in Resources */,
+				0C814E0C1566D0AA00DD15DD /* check.png in Resources */,
+				0C814E0E1566D0AA00DD15DD /* reload.png in Resources */,
+				0C005CD11566D69D00810ED6 /* neutral.png in Resources */,
+				0C005CD21566D69D00810ED6 /* right.png in Resources */,
+				0C005CD31566D69D00810ED6 /* wrong.png in Resources */,
+				0C005CD41566D69D00810ED6 /* terrible.png in Resources */,
+				0C005CD81566DD1200810ED6 /* math4kids.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				77C8280E06725ACE000B614F /* Math4KidsAppDelegate.m in Sources */,
+				770B37ED0679A11B001EADE2 /* Math4Kids_DataModel.xcdatamodel in Sources */,
+				0C6B12BC1559B8D200713C74 /* PreferencesController.m in Sources */,
+				0CB1FBAF1561A1DD007EE555 /* Config.m in Sources */,
+				0CB1FBDE1562E3C2007EE555 /* ConfigArrayController.m in Sources */,
+				0CA497451564D86A00948FA2 /* PersistenceHelper.m in Sources */,
+				0C005C9D1566D29400810ED6 /* Math4KidsController.m in Sources */,
+				0C005C9E1566D29400810ED6 /* MathOperation.m in Sources */,
+				0C005C9F1566D29400810ED6 /* Stats.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F7446970DB6B7EA00F9684A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7446980DB6B7EA00F9684A /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FC0A850875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Math4Kids_Prefix.pch;
+				INFOPLIST_FILE = "Math4Kids-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Math4Kids;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26FC0A860875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Math4Kids_Prefix.pch;
+				INFOPLIST_FILE = "Math4Kids-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Math4Kids;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26FC0A890875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		26FC0A8A0875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "Math4Kids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A850875C7B200E6366F /* Debug */,
+				26FC0A860875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "Math4Kids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A890875C7B200E6366F /* Debug */,
+				26FC0A8A0875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
