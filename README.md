@@ -23,6 +23,7 @@ Application generates random numbers/operations and verifies result. It is possi
 Click to view.
 
 [![Main window](https://raw.githubusercontent.com/arvjus/math4kids/master/screenshots/main-thumb.png)](https://raw.githubusercontent.com/arvjus/math4kids/master/screenshots/main.png)
+
 [![Preferences](https://raw.githubusercontent.com/arvjus/math4kids/master/screenshots/prefs-thumb.png)](https://raw.githubusercontent.com/arvjus/math4kids/master/screenshots/prefs.png)
 
 
